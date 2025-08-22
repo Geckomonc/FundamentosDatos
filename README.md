@@ -17,7 +17,7 @@ Cada fila del dataset representa un **cliente contactado en una campaña**, e in
 ### Variable objetivo
 - **`y`**: indica si el cliente finalmente suscribió el depósito a plazo fijo (`yes` o `no`).
 
-### 👤 Datos del cliente
+### Datos del cliente
 - `age`: edad  
 - `job`: profesión  
 - `marital`: estado civil  
@@ -60,7 +60,7 @@ No es necesario descargar el dataset manualmente, ya que se **extrae automática
 
 
 ## Nombres y correo del estudiante
-Geraldine Acevedo Restrepo
-geraldine.acevedo@udea.edu.co
+- Geraldine Acevedo Restrepo
+- geraldine.acevedo@udea.edu.co
 
 
