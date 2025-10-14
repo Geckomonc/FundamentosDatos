@@ -140,13 +140,14 @@ Existen asociaciones débiles pero coherentes entre educación, estado civil y p
 
 Entre el 2–5 % de los registros son outliers reales; se recomienda conservarlos y aplicar escalado robusto o transformaciones para modelado.
 
-##Referencias
+## Referencias
 
 Dataset original: UCI Machine Learning Repository – Bank Marketing Dataset
 
 Docente: María Bernarda Salazar Sánchez, Ph.D. – Departamento de Ingeniería de Sistemas
 
 Universidad de Antioquia, Facultad de Ingeniería, 2025-2
+
 ---
 
 ## Instrucciones para ejecutar los notebooks
@@ -160,9 +161,5 @@ No es necesario descargar el dataset manualmente, ya que se **extrae automática
 3. Ejecutar todas las celdas **de arriba hacia abajo** (menú: *Runtime > Run all* o *Entorno de ejecución > Ejecutar todo*).  
 4. El proceso descargará automáticamente los datos y generará todas las visualizaciones y resultados.
 
-
-## Nombres y correo del estudiante
-- Geraldine Acevedo Restrepo
-- geraldine.acevedo@udea.edu.co
 
 
