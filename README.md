@@ -1,9 +1,13 @@
 # FCD-20252-GeraldineAcevedoRestrepo
+
 ## Universidad de Antioquia · Facultad de Ingeniería
 
 Curso: Fundamentos de Ciencia de Datos
+
 Docente: María Bernarda Salazar Sánchez, Ph.D.
+
 Estudiante: Geraldine Acevedo Restrepo
+
 Correo: geraldine.acevedo@udea.edu.co
 
 ## Descripción General del Proyecto
@@ -53,7 +57,7 @@ Analizar las características de los clientes y las campañas de marketing con e
 ---
 
 ## Descripción primera entrega proyecto aula
-Este proyecto corresponde al entregable del Proyecto de Aula del curso Fundamentos de Ciencia de Datos (2025-2).
+El colab py_Geraldine_Acevedo_Restrepo_01_avances que se encuentra en la carpeta proyecto_aula corresponde al primer entregable del curso Fundamentos de Ciencia de Datos  para el Proyecto Aula.
 El trabajo desarrolla un Análisis Exploratorio de Datos (EDA) sobre el dataset público Bank Marketing, proveniente de campañas de marketing directo de una institución bancaria portuguesa.
 
 ## Objetivo primera entrega proyecto aula
@@ -75,7 +79,7 @@ Analizar las características de los clientes y las campañas de marketing con e
 
 📄 README.md – Descripción, objetivo y estructura del proyecto
 
-##Variables seleccionadas primera entrega proyecto aula
+## Variables seleccionadas primera entrega proyecto aula
 
 | Variable      | Tipo                 | Definición                                                                  | Fuente             |
 | ------------- | -------------------- | --------------------------------------------------------------------------- | ------------------ |
@@ -86,7 +90,7 @@ Analizar las características de los clientes y las campañas de marketing con e
 | **education** | Discreta (categoría) | Nivel educativo (*primary*, *secondary*, *tertiary*, *unknown*).            | UCI Bank Marketing |
 | **housing**   | Discreta (binaria)   | Indica si el cliente tiene un préstamo de vivienda (*yes* / *no*).          | UCI Bank Marketing |
 
-##Contenido del notebook py_Geraldine_Acevedo_Restrepo_01_avances
+## Contenido del notebook py_Geraldine_Acevedo_Restrepo_01_avances
 
 🔹 Selección y documentación de variables
 
