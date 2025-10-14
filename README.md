@@ -5,12 +5,16 @@ Curso: Fundamentos de Ciencia de Datos
 Docente: María Bernarda Salazar Sánchez, Ph.D.
 Estudiante: Geraldine Acevedo Restrepo
 Correo: geraldine.acevedo@udea.edu.co
+
 ## Descripción General del Proyecto
 
 Este proyecto utiliza un dataset correspondiente a los **registros de campañas de marketing directo de una institución bancaria portuguesa**.  
 Las campañas se realizaron principalmente a través de **llamadas telefónicas**, con el objetivo de convencer a los clientes de **suscribir un depósito a plazo fijo**.  
 
 Cada fila del dataset representa un **cliente contactado en una campaña**, e incluye información **personal, financiera y de la interacción de marketing**.
+
+## Objetivo del Proyecto
+Analizar las características de los clientes y las campañas de marketing con el fin de **identificar los factores que influyen en la aceptación de un depósito a plazo fijo**, utilizando análisis exploratorio y técnicas de modelado predictivo.
 
 ---
 
@@ -48,9 +52,6 @@ Cada fila del dataset representa un **cliente contactado en una campaña**, e in
 
 ---
 
-## Objetivo del Proyecto
-Analizar las características de los clientes y las campañas de marketing con el fin de **identificar los factores que influyen en la aceptación de un depósito a plazo fijo**, utilizando análisis exploratorio y técnicas de modelado predictivo.
----
 ## Descripción primera entrega proyecto aula
 Este proyecto corresponde al entregable del Proyecto de Aula del curso Fundamentos de Ciencia de Datos (2025-2).
 El trabajo desarrolla un Análisis Exploratorio de Datos (EDA) sobre el dataset público Bank Marketing, proveniente de campañas de marketing directo de una institución bancaria portuguesa.
@@ -134,6 +135,14 @@ Las llamadas más largas podrían reflejar mayor interés o efectividad comercia
 Existen asociaciones débiles pero coherentes entre educación, estado civil y préstamos.
 
 Entre el 2–5 % de los registros son outliers reales; se recomienda conservarlos y aplicar escalado robusto o transformaciones para modelado.
+
+##Referencias
+
+Dataset original: UCI Machine Learning Repository – Bank Marketing Dataset
+
+Docente: María Bernarda Salazar Sánchez, Ph.D. – Departamento de Ingeniería de Sistemas
+
+Universidad de Antioquia, Facultad de Ingeniería, 2025-2
 ---
 
 ## Instrucciones para ejecutar los notebooks
