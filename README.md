@@ -1,5 +1,10 @@
 # FCD-20252-GeraldineAcevedoRestrepo
+## Universidad de Antioquia · Facultad de Ingeniería
 
+Curso: Fundamentos de Ciencia de Datos
+Docente: María Bernarda Salazar Sánchez, Ph.D.
+Estudiante: Geraldine Acevedo Restrepo
+Correo: geraldine.acevedo@udea.edu.co
 ## Descripción General del Proyecto
 
 Este proyecto utiliza un dataset correspondiente a los **registros de campañas de marketing directo de una institución bancaria portuguesa**.  
@@ -45,7 +50,91 @@ Cada fila del dataset representa un **cliente contactado en una campaña**, e in
 
 ## Objetivo del Proyecto
 Analizar las características de los clientes y las campañas de marketing con el fin de **identificar los factores que influyen en la aceptación de un depósito a plazo fijo**, utilizando análisis exploratorio y técnicas de modelado predictivo.
+---
+## Descripción primera entrega proyecto aula
+Este proyecto corresponde al entregable del Proyecto de Aula del curso Fundamentos de Ciencia de Datos (2025-2).
+El trabajo desarrolla un Análisis Exploratorio de Datos (EDA) sobre el dataset público Bank Marketing, proveniente de campañas de marketing directo de una institución bancaria portuguesa.
 
+## Objetivo primera entrega proyecto aula
+Analizar las características de los clientes y las campañas de marketing con el fin de identificar los factores que influyen en la aceptación del depósito a plazo fijo, aplicando técnicas de análisis exploratorio, visualización y detección de valores atípicos.
+
+## Estructura del repositorio
+
+📂 FCD-20252-GeraldineAcevedoRestrepo/
+
+📁 articulo/ – Recursos teóricos o artículos de referencia
+
+📁 datos/ – Dataset original
+
+📁 proyecto_aula/ – Notebook principal con el EDA completo
+
+📁 recursos/ – Imágenes, gráficos y recursos visuales del informe
+
+📁 sesiones_practicas/ – Prácticas previas realizadas en Colab
+
+📄 README.md – Descripción, objetivo y estructura del proyecto
+
+##Variables seleccionadas primera entrega proyecto aula
+
+| Variable      | Tipo                 | Definición                                                                  | Fuente             |
+| ------------- | -------------------- | --------------------------------------------------------------------------- | ------------------ |
+| **age**       | Continua (años)      | Edad del cliente en años.                                                   | UCI Bank Marketing |
+| **balance**   | Continua (euros)     | Saldo promedio anual de la cuenta bancaria (puede ser negativo o positivo). | UCI Bank Marketing |
+| **duration**  | Continua (segundos)  | Duración de la última llamada de contacto en la campaña.                    | UCI Bank Marketing |
+| **marital**   | Discreta (categoría) | Estado civil del cliente (*single*, *married*, *divorced*).                 | UCI Bank Marketing |
+| **education** | Discreta (categoría) | Nivel educativo (*primary*, *secondary*, *tertiary*, *unknown*).            | UCI Bank Marketing |
+| **housing**   | Discreta (binaria)   | Indica si el cliente tiene un préstamo de vivienda (*yes* / *no*).          | UCI Bank Marketing |
+
+##Contenido del notebook py_Geraldine_Acevedo_Restrepo_01_avances
+
+🔹 Selección y documentación de variables
+
+Identificación de 3 variables continuas y 3 categóricas.
+
+Tabla de metadatos (nombre, tipo, definición y fuente).
+
+🔹 Análisis univariado
+
+Estadísticos descriptivos.
+
+Histogramas y boxplots por variable.
+
+Interpretación de forma, asimetría y dispersión.
+
+🔹 Análisis bivariado y multivariado
+
+Matriz de correlación y diagramas de dispersión.
+
+Tablas cruzadas y pruebas Chi² entre variables categóricas.
+
+Interpretaciones sobre relaciones socioeconómicas y financieras.
+
+🔹 Detección de valores atípicos
+
+Métodos aplicados: IQR (3×IQR), DBSCAN, Isolation Forest.
+
+Identificación, análisis e interpretación de outliers.
+
+Decisiones sobre conservación o transformación de los datos.
+
+🔹 Comunicación de resultados
+
+Síntesis de hallazgos por dimensión (sociodemográfica, financiera, conductual, relacional y anomalías).
+
+Conclusiones globales del EDA.
+
+## Conclusiones generales
+
+Predominan clientes adultos casados con educación media o superior, perfil demográficamente estable.
+
+Se evidencia una alta desigualdad en los saldos bancarios, con pocos clientes de gran capital.
+
+Las llamadas más largas podrían reflejar mayor interés o efectividad comercial.
+
+Existen asociaciones débiles pero coherentes entre educación, estado civil y préstamos.
+
+Entre el 2–5 % de los registros son outliers reales; se recomienda conservarlos y aplicar escalado robusto o transformaciones para modelado.
+---
 
 ## Instrucciones para ejecutar los notebooks
 
