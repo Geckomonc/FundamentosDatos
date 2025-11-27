@@ -216,6 +216,10 @@ Lineamientos éticos: Guía del IEEE y políticas de uso de datos de Kaggle.
 
 Asistencia técnica generada con apoyo de OpenAI ChatGPT (GPT-5.1).
 
+## 📄 Artículo del proyecto
+
+El artículo completo asociado a este análisis se encuentra disponible en la carpeta /articulos dentro de este repositorio.
+
 ## Conclusiones generales
 
 Predominan clientes adultos casados con educación media o superior, perfil demográficamente estable.
