@@ -128,6 +128,94 @@ Síntesis de hallazgos por dimensión (sociodemográfica, financiera, conductual
 
 Conclusiones globales del EDA.
 
+## Contenido del notebook py_Geraldine_Acevedo_Restrepo_02_entrega_final
+
+🔹 1. Selección y documentación de variables
+
+Identificación de 3 variables continuas (age, balance, duration) y 3 categóricas (marital, education, housing).
+
+Elaboración de una tabla de metadatos con nombre, tipo, significado y fuente.
+
+Justificación de su relevancia sociodemográfica, financiera y de interacción con la campaña.
+
+🔹 2. Análisis univariado
+
+Cálculo de estadísticos descriptivos para age, balance y duration.
+
+Histogramas y boxplots para evaluar forma, asimetría, dispersión y presencia de outliers.
+
+Las variables categóricas se estudiaron mediante tablas de frecuencia.
+
+Hallazgos clave: age es estable, balance y duration son altamente asimétricas y contienen valores extremos reales.
+
+🔹 3. Análisis bivariado y multivariado
+
+Matriz de correlación y scatterplots → no existen relaciones lineales fuertes entre variables numéricas.
+
+Boxplots y violin plots entre numéricas y categóricas → medianas similares, diferencias debidas a dispersión.
+
+Tablas cruzadas y pruebas Chi² → asociaciones significativas pero muy débiles (V < 0.13).
+
+Las variables operan de forma mayormente independiente, aportando información complementaria.
+
+🔹 4. Detección de valores atípicos (outliers)
+
+Método IQR (3×IQR) → outliers reales en balance (~5.4%) y duration (~2.5%).
+
+Métodos multivariados aplicados: DBSCAN e Isolation Forest, confirmando un pequeño grupo de clientes con comportamientos atípicos pero válidos.
+
+Los outliers no se eliminaron; se recomienda tratamiento mediante escalado y transformaciones.
+
+🔹 5. Imputación, escalamiento y transformación de datos
+
+No existen valores faltantes, por lo que no fue necesaria la imputación.
+
+Selección de técnicas de preprocesamiento según cada variable:
+
+age: estandarización (StandardScaler).
+
+balance: RobustScaler + transformación Yeo–Johnson.
+
+duration: MinMaxScaler + transformación Yeo–Johnson.
+
+Visualización antes y después del escalamiento para comparar cambios.
+
+Transformaciones redujeron el sesgo y mejoraron la estabilidad estadística de balance y duration.
+
+🔹 6. Comunicación de resultados – Síntesis del EDA
+
+Dimensión sociodemográfica: predominan adultos entre 30–50 años, mayor presencia de clientes casados y con educación media o superior.
+
+Dimensión financiera: fuerte desigualdad en los saldos; pocos clientes concentran valores extremos.
+
+Dimensión conductual: la mayoría de llamadas son cortas; las muy largas pueden indicar mayor interés.
+
+Dimensión relacional: asociaciones débiles entre estado civil, educación y préstamos, acordes con patrones demográficos.
+
+Dimensión de anomalías: entre 2% y 5% de casos atípicos reales; deben conservarse y tratarse mediante escalado robusto.
+
+🔹 7. Ética y uso responsable de los datos
+
+Uso de datos anónimos y públicos del dataset de Kaggle.
+
+No se procesó información personal identificable.
+
+Se preservó la integridad y estructura original del dataset; las transformaciones fueron exclusivamente técnicas.
+
+Resultados con fines educativos, no aplicables a decisiones reales.
+
+Documentación completa y transparente dentro del notebook.
+
+🔹 Atribución de fuentes
+
+Dataset obtenido de Kaggle: Bank Marketing Dataset.
+
+Documentación oficial utilizada: Pandas, NumPy, Scikit-learn.
+
+Lineamientos éticos: Guía del IEEE y políticas de uso de datos de Kaggle.
+
+Asistencia técnica generada con apoyo de OpenAI ChatGPT (GPT-5.1).
+
 ## Conclusiones generales
 
 Predominan clientes adultos casados con educación media o superior, perfil demográficamente estable.
